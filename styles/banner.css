@@ -1,0 +1,13 @@
+.banner {
+    height: 100vh;
+}
+
+.banner_image {
+    background-image: url('../assets/banner_games_images.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}

@@ -1,0 +1,37 @@
+.navbar {
+    background-color: var(--cor-primaria);
+    padding: 0.5rem;
+    display: flex;
+    height: 100px;
+    border-bottom: 10px solid var(--cor-secundaria);
+    justify-content: space-between;
+}
+
+.navbar-logo_items {
+    display: flex;
+}
+
+.navbar_items {
+    margin: 0 1rem;
+}
+
+.lista-navbar {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.lista-navbar_items {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.link_navbar {
+    color: var(--cor-branca);
+}
+
+.navbar-notificacoes_usuario {
+    display: flex;
+    align-items: center;
+}
