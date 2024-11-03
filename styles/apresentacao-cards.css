@@ -1,0 +1,10 @@
+.apresentacao-cards {
+    align-items: center;
+}
+
+
+.apresentacao-cards_lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 2rem
+}

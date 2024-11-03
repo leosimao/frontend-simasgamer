@@ -1,13 +1,43 @@
 .banner {
     height: 100vh;
+    position: relative;
 }
 
-.banner_image {
+.banner-image {
     background-image: url('../assets/banner_games_images.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100%;
     width: 100%;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-titulo_principal {
+    margin: 1rem 2rem;
+    color: var(--cor-branca);
+}
+
+.banner-subtitulo {
+    margin: 0 0 1rem 2rem;
+    color: var(--cor-branca);
+}
+
+.banner-subtitulo span {
+    text-decoration: underline;
+    text-decoration-color: var(--cor-primaria);
+    text-decoration-style: solid;
+}
+
+.banner-button_confira_ja {
+    border-radius: 0.5rem;
+    width: 9.37rem;
+    height: 3.12rem;
+    margin: 0 2rem;
+    cursor: pointer;
+    font-family: var(--fonte), sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
