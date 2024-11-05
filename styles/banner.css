@@ -40,4 +40,9 @@
     font-family: var(--fonte), sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    color: var(--cor-preta);
+    background-color: var(--cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
