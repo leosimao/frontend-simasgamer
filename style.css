@@ -2,7 +2,7 @@
 @import url(styles/header.css);
 @import url(styles/banner.css);
 @import url(styles/conteudo-principal.css);
-@import url(styles/apresentacao-cards.css);
+@import url(styles/footer.css);
 
 :root {
     --fonte: "Poppins";
@@ -10,6 +10,10 @@
     --cor-preta: #000;
     --cor-primaria: #74C0FC;
     --cor-secundaria: #002C52;
+}
+
+body, html {
+    overflow-x: hidden;
 }
 
 body {
