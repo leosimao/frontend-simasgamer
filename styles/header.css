@@ -43,6 +43,9 @@
     left: 150px;
     width: 60vw;
     background-color: var(--cor-branca);
+}
+
+.item_console_nome {
     color: var(--cor-secundaria);
 }
 
@@ -50,6 +53,9 @@
     display: block;
     width: auto;
     border-radius: 0 0 4px 4px;
+    position: absolute;
+    top: 3rem;
+    z-index: 1;
 }
 
 .item_console {
