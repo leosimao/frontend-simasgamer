@@ -48,6 +48,7 @@
     border: 1px solid var(--cor-secundaria);
     border-radius: 4px;
     font-weight: 800;
+    cursor: pointer;
 }
 
 .container-botao_veja_mais {
@@ -70,11 +71,14 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        gap: 1rem;
     }
 
     .card_item {
         flex-direction: column;
         column-gap: 1rem;
+        border: 1px solid var(--cor-secundaria);
+        border-radius: 0.5rem;
     }
 
     .meio_card {

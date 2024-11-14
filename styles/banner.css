@@ -45,6 +45,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.2s ease-in-out;
 }
 
 .entrada_cards {
@@ -72,5 +73,9 @@
 
 .conteudo-principal_subtitulo span {
     color: var(--cor-secundaria);
+}
+
+.banner-button_confira_ja:hover {
+    font-weight: 600;
 }
 

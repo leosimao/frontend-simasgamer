@@ -81,6 +81,7 @@
         color: var(--cor-branca);
         text-transform: uppercase;
         font-weight: 700;
+        position: relative;
     }
 
     .navbar-logo {
@@ -89,6 +90,21 @@
 
     .navbar-notificacoes_usuario {
         margin-right: 1rem;
+    }
+
+    .link_navbar:hover::after {
+        width: 100%;
+    }
+
+    .link_navbar::after {
+        content: " ";
+        width: 0;
+        height: 3px;
+        background-color: var(--cor-branca);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s ease-in-out;
     }
 }
 
