@@ -77,13 +77,18 @@
         align-items: center;
     }
 
-    .lista-navbar_items {
+    .link_navbar {
+        color: var(--cor-branca);
         text-transform: uppercase;
         font-weight: 700;
     }
 
-    .link_navbar {
-        color: var(--cor-branca);
+    .navbar-logo {
+        margin-left: 1rem;
+    }
+
+    .navbar-notificacoes_usuario {
+        margin-right: 1rem;
     }
 }
 
